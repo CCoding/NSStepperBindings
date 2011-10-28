@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9322F82145B15E9002EB84E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9322F81145B15E9002EB84E /* Cocoa.framework */; };
+		D9322F8C145B15E9002EB84E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9322F8A145B15E9002EB84E /* InfoPlist.strings */; };
+		D9322F8E145B15E9002EB84E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9322F8D145B15E9002EB84E /* main.m */; };
+		D9322F92145B15E9002EB84E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D9322F90145B15E9002EB84E /* Credits.rtf */; };
+		D9322F95145B15E9002EB84E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9322F94145B15E9002EB84E /* AppDelegate.m */; };
+		D9322F98145B15E9002EB84E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9322F96145B15E9002EB84E /* MainMenu.xib */; };
+		D9322FA0145B15E9002EB84E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9322F9F145B15E9002EB84E /* SenTestingKit.framework */; };
+		D9322FA1145B15E9002EB84E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9322F81145B15E9002EB84E /* Cocoa.framework */; };
+		D9322FA9145B15E9002EB84E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9322FA7145B15E9002EB84E /* InfoPlist.strings */; };
+		D9322FAC145B15E9002EB84E /* NSStepperBindingsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9322FAB145B15E9002EB84E /* NSStepperBindingsTests.m */; };
+		D9322FB7145B15FB002EB84E /* StepperObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D9322FB6145B15FB002EB84E /* StepperObject.m */; };
+		D9322FBA145B161A002EB84E /* ObjectController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9322FB9145B161A002EB84E /* ObjectController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9322FA2145B15E9002EB84E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9322F74145B15E9002EB84E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9322F7C145B15E9002EB84E;
+			remoteInfo = NSStepperBindings;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9322F7D145B15E9002EB84E /* NSStepperBindings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSStepperBindings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9322F81145B15E9002EB84E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D9322F84145B15E9002EB84E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D9322F85145B15E9002EB84E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D9322F86145B15E9002EB84E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D9322F89145B15E9002EB84E /* NSStepperBindings-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSStepperBindings-Info.plist"; sourceTree = "<group>"; };
+		D9322F8B145B15E9002EB84E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D9322F8D145B15E9002EB84E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9322F8F145B15E9002EB84E /* NSStepperBindings-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSStepperBindings-Prefix.pch"; sourceTree = "<group>"; };
+		D9322F91145B15E9002EB84E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D9322F93145B15E9002EB84E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D9322F94145B15E9002EB84E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D9322F97145B15E9002EB84E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D9322F9E145B15E9002EB84E /* NSStepperBindingsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSStepperBindingsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9322F9F145B15E9002EB84E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D9322FA6145B15E9002EB84E /* NSStepperBindingsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSStepperBindingsTests-Info.plist"; sourceTree = "<group>"; };
+		D9322FA8145B15E9002EB84E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D9322FAA145B15E9002EB84E /* NSStepperBindingsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSStepperBindingsTests.h; sourceTree = "<group>"; };
+		D9322FAB145B15E9002EB84E /* NSStepperBindingsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSStepperBindingsTests.m; sourceTree = "<group>"; };
+		D9322FB5145B15FB002EB84E /* StepperObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepperObject.h; sourceTree = "<group>"; };
+		D9322FB6145B15FB002EB84E /* StepperObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepperObject.m; sourceTree = "<group>"; };
+		D9322FB8145B161A002EB84E /* ObjectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectController.h; sourceTree = "<group>"; };
+		D9322FB9145B161A002EB84E /* ObjectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9322F7A145B15E9002EB84E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9322F82145B15E9002EB84E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9322F9A145B15E9002EB84E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9322FA0145B15E9002EB84E /* SenTestingKit.framework in Frameworks */,
+				D9322FA1145B15E9002EB84E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9322F72145B15E9002EB84E = {
+			isa = PBXGroup;
+			children = (
+				D9322F87145B15E9002EB84E /* NSStepperBindings */,
+				D9322FA4145B15E9002EB84E /* NSStepperBindingsTests */,
+				D9322F80145B15E9002EB84E /* Frameworks */,
+				D9322F7E145B15E9002EB84E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9322F7E145B15E9002EB84E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9322F7D145B15E9002EB84E /* NSStepperBindings.app */,
+				D9322F9E145B15E9002EB84E /* NSStepperBindingsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9322F80145B15E9002EB84E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9322F81145B15E9002EB84E /* Cocoa.framework */,
+				D9322F9F145B15E9002EB84E /* SenTestingKit.framework */,
+				D9322F83145B15E9002EB84E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9322F83145B15E9002EB84E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9322F84145B15E9002EB84E /* AppKit.framework */,
+				D9322F85145B15E9002EB84E /* CoreData.framework */,
+				D9322F86145B15E9002EB84E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D9322F87145B15E9002EB84E /* NSStepperBindings */ = {
+			isa = PBXGroup;
+			children = (
+				D9322F93145B15E9002EB84E /* AppDelegate.h */,
+				D9322F94145B15E9002EB84E /* AppDelegate.m */,
+				D9322FB5145B15FB002EB84E /* StepperObject.h */,
+				D9322FB6145B15FB002EB84E /* StepperObject.m */,
+				D9322FB8145B161A002EB84E /* ObjectController.h */,
+				D9322FB9145B161A002EB84E /* ObjectController.m */,
+				D9322F96145B15E9002EB84E /* MainMenu.xib */,
+				D9322F88145B15E9002EB84E /* Supporting Files */,
+			);
+			path = NSStepperBindings;
+			sourceTree = "<group>";
+		};
+		D9322F88145B15E9002EB84E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9322F89145B15E9002EB84E /* NSStepperBindings-Info.plist */,
+				D9322F8A145B15E9002EB84E /* InfoPlist.strings */,
+				D9322F8D145B15E9002EB84E /* main.m */,
+				D9322F8F145B15E9002EB84E /* NSStepperBindings-Prefix.pch */,
+				D9322F90145B15E9002EB84E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9322FA4145B15E9002EB84E /* NSStepperBindingsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9322FAA145B15E9002EB84E /* NSStepperBindingsTests.h */,
+				D9322FAB145B15E9002EB84E /* NSStepperBindingsTests.m */,
+				D9322FA5145B15E9002EB84E /* Supporting Files */,
+			);
+			path = NSStepperBindingsTests;
+			sourceTree = "<group>";
+		};
+		D9322FA5145B15E9002EB84E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9322FA6145B15E9002EB84E /* NSStepperBindingsTests-Info.plist */,
+				D9322FA7145B15E9002EB84E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9322F7C145B15E9002EB84E /* NSStepperBindings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9322FAF145B15E9002EB84E /* Build configuration list for PBXNativeTarget "NSStepperBindings" */;
+			buildPhases = (
+				D9322F79145B15E9002EB84E /* Sources */,
+				D9322F7A145B15E9002EB84E /* Frameworks */,
+				D9322F7B145B15E9002EB84E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSStepperBindings;
+			productName = NSStepperBindings;
+			productReference = D9322F7D145B15E9002EB84E /* NSStepperBindings.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9322F9D145B15E9002EB84E /* NSStepperBindingsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9322FB2145B15E9002EB84E /* Build configuration list for PBXNativeTarget "NSStepperBindingsTests" */;
+			buildPhases = (
+				D9322F99145B15E9002EB84E /* Sources */,
+				D9322F9A145B15E9002EB84E /* Frameworks */,
+				D9322F9B145B15E9002EB84E /* Resources */,
+				D9322F9C145B15E9002EB84E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9322FA3145B15E9002EB84E /* PBXTargetDependency */,
+			);
+			name = NSStepperBindingsTests;
+			productName = NSStepperBindingsTests;
+			productReference = D9322F9E145B15E9002EB84E /* NSStepperBindingsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9322F74145B15E9002EB84E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Privat;
+			};
+			buildConfigurationList = D9322F77145B15E9002EB84E /* Build configuration list for PBXProject "NSStepperBindings" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D9322F72145B15E9002EB84E;
+			productRefGroup = D9322F7E145B15E9002EB84E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9322F7C145B15E9002EB84E /* NSStepperBindings */,
+				D9322F9D145B15E9002EB84E /* NSStepperBindingsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9322F7B145B15E9002EB84E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9322F8C145B15E9002EB84E /* InfoPlist.strings in Resources */,
+				D9322F92145B15E9002EB84E /* Credits.rtf in Resources */,
+				D9322F98145B15E9002EB84E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9322F9B145B15E9002EB84E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9322FA9145B15E9002EB84E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D9322F9C145B15E9002EB84E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9322F79145B15E9002EB84E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9322F8E145B15E9002EB84E /* main.m in Sources */,
+				D9322F95145B15E9002EB84E /* AppDelegate.m in Sources */,
+				D9322FB7145B15FB002EB84E /* StepperObject.m in Sources */,
+				D9322FBA145B161A002EB84E /* ObjectController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9322F99145B15E9002EB84E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9322FAC145B15E9002EB84E /* NSStepperBindingsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9322FA3145B15E9002EB84E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9322F7C145B15E9002EB84E /* NSStepperBindings */;
+			targetProxy = D9322FA2145B15E9002EB84E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9322F8A145B15E9002EB84E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9322F8B145B15E9002EB84E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D9322F90145B15E9002EB84E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9322F91145B15E9002EB84E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D9322F96145B15E9002EB84E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9322F97145B15E9002EB84E /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		D9322FA7145B15E9002EB84E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9322FA8145B15E9002EB84E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9322FAD145B15E9002EB84E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D9322FAE145B15E9002EB84E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D9322FB0145B15E9002EB84E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSStepperBindings/NSStepperBindings-Prefix.pch";
+				INFOPLIST_FILE = "NSStepperBindings/NSStepperBindings-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D9322FB1145B15E9002EB84E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSStepperBindings/NSStepperBindings-Prefix.pch";
+				INFOPLIST_FILE = "NSStepperBindings/NSStepperBindings-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D9322FB3145B15E9002EB84E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSStepperBindings.app/Contents/MacOS/NSStepperBindings";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSStepperBindings/NSStepperBindings-Prefix.pch";
+				INFOPLIST_FILE = "NSStepperBindingsTests/NSStepperBindingsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D9322FB4145B15E9002EB84E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSStepperBindings.app/Contents/MacOS/NSStepperBindings";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSStepperBindings/NSStepperBindings-Prefix.pch";
+				INFOPLIST_FILE = "NSStepperBindingsTests/NSStepperBindingsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9322F77145B15E9002EB84E /* Build configuration list for PBXProject "NSStepperBindings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9322FAD145B15E9002EB84E /* Debug */,
+				D9322FAE145B15E9002EB84E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9322FAF145B15E9002EB84E /* Build configuration list for PBXNativeTarget "NSStepperBindings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9322FB0145B15E9002EB84E /* Debug */,
+				D9322FB1145B15E9002EB84E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D9322FB2145B15E9002EB84E /* Build configuration list for PBXNativeTarget "NSStepperBindingsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9322FB3145B15E9002EB84E /* Debug */,
+				D9322FB4145B15E9002EB84E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9322F74145B15E9002EB84E /* Project object */;
+}
